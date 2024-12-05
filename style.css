@@ -1,0 +1,39 @@
+header nav ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: blue; 
+    font-size: larger;
+}
+h1{
+    color: blue;
+}
+h3{
+    color: blue;
+}
+.titre1{
+    text-align: left;
+    font-size: 60px;
+}
+#photo{
+    height: 350px; width: 350px;
+}
+#bouton{
+    background-color: yellowgreen;
+ 
+}
+.presentation{
+    font-size: 15px;
+}
+#bloc1{
+    color: blue;
+}
+.bloc2{
+    color:olivedrab;
+}
+.travail{
+    font-size: 20px;
+}

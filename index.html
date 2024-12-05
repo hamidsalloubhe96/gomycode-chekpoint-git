@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
+
     <header>
         <nav>
             <ul>
@@ -27,23 +28,24 @@
             </ul>
         </nav>
     </header>
+    <body>
     <div>
         <!--About-->
-        <h2>About</h2>
-        <p> Je m'appelle Hamidou cherif Bah,
-            diplomé en Gestion des Ressources humaines à l'université General lansana conté de Sonfonia (Conakry), 
-            actuellement je suis etudiant au centre Gomycode Senegal en Developpement Web.J'exerce le metier d'infogrpahe.Je suis une personne ouverte,dynamique,j'ai le sens de la communication,de l'ecoute et de l'adaptation.</p>
+        <h1 class="titre">About</h1>
+        <p class="presentation"> Je m'appelle Hamidou cherif Bah,
+            diplomé en Gestion des Ressources humaines à l'université General lansana conté de Sonfonia (Conakry).
+            Actuellement je suis etudiant au centre Gomycode Senegal en Developpement Web.
+            J'exerce le metier d'infogrpahe.Je suis une personne ouverte,dynamique,j'ai le sens de la communication,de l'ecoute et de l'adaptation.</p>
     </div>
     <div>
-        <h1>hello</h1>
         <!--Work-->
-        <h2>Work</h2>
-        <p>Designer Graphic</p>
+        <h1>Work</h1>
+        <p class="travail">Designer Graphic</p>
     </div>
     <div>
         <!--CV-->
-        <h2>Curriculum vitae</h2>
-        <h3>Formations Academiques</h3>
+        <h1 class="titre1">Curriculum vitae</h1>
+        <h1>Formations Academiques</h1>
         <ul>
             <li>
                 <p>2017-2020: Diplome de licence en Gestion des Ressources humaines</p>
@@ -85,14 +87,14 @@
         </ul>
     </div>
     <div>
-        <img src="WhatsApp Image 2024-11-05 à 07.32.41_dc358221.jpg" alt="photo de cherif">
-        <img src="images (1).jpeg" alt="equipe entrepreuneriale">
-        <img src="images.jpeg" alt="photo">
+        <img src="WhatsApp Image 2024-11-05 à 07.32.41_dc358221.jpg" alt="photo de cherif" id="photo">
+        
     </div>
     
         <div>
                 <!--Formulaire de Contact-->
-                <h3>Formulaire de Contact</h3>
+                <h3 class="titre2">Formulaire de Contact</h3>
+                <div id="bloc1">
                 <form>
                     <label for="Name">Nom et Prenom</label>
                     <input type="text" id ="Nom et Prenom" /> <br> <br>
@@ -100,18 +102,18 @@
                     <input type="Email" id="Email" /><br> <br>
                     <label for="Company">Company</label>
                     <input type="Company" id="Company" />
-                    <button type="Submite">Envoyez</button>
+                    <button id="bouton" type="Submite">Envoyez</button>
                 </form>
-     
-           
         </div>
-        <div>
-            <!--Contact-->
-            <h4>Contact: 00221777580013</h4>
-            <h4>Email:hamidoucherif96@gmail.com</h4>
-            <h4>Adresse:jaxay Cité Lebougui</h4>
-        </div>
-        <footer></footer>
+        
+        <footer>
+            <div class="bloc2">
+                <!--Contact-->
+                <h4>Contact: 00221777580013</h4>
+                <h4>Email:hamidoucherif96@gmail.com</h4>
+                <h4>Adresse:jaxay Cité Lebougui</h4>
+            </div>
+        </footer>
 </body>
 
 
